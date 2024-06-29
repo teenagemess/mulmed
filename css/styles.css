@@ -11077,7 +11077,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #220273c1;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11093,7 +11093,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: transparent;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -11441,3 +11441,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  .option-button {
+    height: 60px; /* Set the height to ensure uniformity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row.justify-content-center {
+    width: 100%;
+  }
+
+
